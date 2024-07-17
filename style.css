@@ -31,7 +31,14 @@ section {
   border-radius: 10px;
   width: 60%;
   margin: 120px auto;
-  padding: 40px;
+}
+
+.section-img {
+  padding: 40px 40px 0px 40px;
+}
+
+.section-content {
+  padding: 0px 40px 40px 40px;
 }
 
 section img {
@@ -109,4 +116,15 @@ section img {
 .bold-Nutmeg {
   font-weight: 700;
   color: var(--Nutmeg);
+}
+
+@media (max-width: 500px) {
+  section {
+    width: 100%;
+    margin: 0;
+  }
+
+  .section-img {
+    padding: 0git;
+  }
 }
